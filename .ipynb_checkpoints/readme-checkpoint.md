@@ -18,10 +18,28 @@ L'objectif est un algorithme iteratif simple, optimisant une fonction objective 
 ![alt text](https://raw.githubusercontent.com/yannistannier/deepdr-dae-with-lle/master/images/2.png)
 
 
-### Structure depot :
+## Rapport :
+
+
+
+## Structure depot :
 
 
 Main code :  
 - [deepReduc.ipynb](deepReduc.ipynb) : Notebook et visuel de l'implementation de DeepDr
 - [deepReduc.py](deepReduc.py) : Script DeepDr
 - [GMM_nmiari.ipynb](GMM_nmiari.ipynb) : Notebook du script des test des mélanges de modèles gaussiens et des indicateurs classiques NMI/ARI
+
+
+Visualisation :
+- [ProjetReducDim.ipynb](ProjetReducDim.r) : Comparaison et état de l'art des methodes de réduction de dimension
+- [Resultat.ipynb](Resultat.ipynb) : Plot T-SNE des differentes méthodes
+
+
+Repertoires :
+- models => contient les models entrainée de deepDr
+- result => contient tout les bottlenecks des differentes configuration effectué tout au long de ce projet pour chaque dataset : Mnist / fashion mnist / pendigit / upsps
+
+
+Experimentation : 
+Contient 
