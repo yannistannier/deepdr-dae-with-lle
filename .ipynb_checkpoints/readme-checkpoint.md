@@ -20,6 +20,8 @@ L'objectif est un algorithme iteratif simple, optimisant une fonction objective 
 
 ## Rapport :
 
+[DeepDR_Gesnouin_Tannier.pdf](https://raw.githubusercontent.com/yannistannier/deepdr-dae-with-lle/master/DeepDR_Gesnouin_Tannier.pdf)
+
 
 
 ## Structure depot :
@@ -32,7 +34,7 @@ Main code :
 
 
 Visualisation :
-- [ProjetReducDim.ipynb](ProjetReducDim.r) : Comparaison et état de l'art des methodes de réduction de dimension
+- [ProjetReducDim.r](ProjetReducDim.r) : Comparaison et état de l'art des methodes de réduction de dimension
 - [Resultat.ipynb](Resultat.ipynb) : Plot T-SNE des differentes méthodes
 
 
@@ -42,4 +44,9 @@ Repertoires :
 
 
 Experimentation : 
-Contient 
+
+Contient differentes implementations d'ameliorations possible :
+- [deepR_denoising.py](experimentation/deepR_denoising.py) : Denoising DeepDr
+- [deepR-vae-bvae.py](experimentation/deepR-vae-bvae.py) : Variationnal DeepDr & Disentangled DeepDr (beta-vae)
+- [deepR_sparcity.py](experimentation/deepR_sparcity.py) : DeepDr with sparcity constraint
+- [ConvAE.ipynb](experimentation/ConvAE.ipynb) : Convolutional DeepDr

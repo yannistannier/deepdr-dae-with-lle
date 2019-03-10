@@ -344,14 +344,6 @@ decoded = Dense(256, activation='relu')(decoded)
 output = Dense(784, activation='sigmoid', name="logits")(decoded)
 
 
-#encoded = Dense(128, activation='relu')(input_img)
-#encoded = Dense(64, activation='relu')(encoded)
-#bottlenek = Dense(10, activation='relu', name="bottleneck")(encoded)
-
-#decoded = Dense(64, activation='relu')(bottlenek)
-#decoded = Dense(128, activation='relu')(bottlenek)
-#output = Dense(784, activation='sigmoid', name="logits")(decoded)
-
 final_dense = concatenate(
     [input_bottleneck, 
      output,
@@ -360,12 +352,7 @@ final_dense = concatenate(
 
 model = Model([input_bottleneck, input_img, input_S], [final_dense, output])
 
-# model.load_weights("result_fashion/deepr_noisy.h5")
-
 bottleneck_model = Model(inputs=model.get_layer("inp_img").input, outputs=model.get_layer("bottleneck").output)
-
-#model = Model(input_img, output)
-
 
 l = 2
 def custom_loss(y_true, y_pred):
@@ -404,7 +391,7 @@ for epoch in range(0,100):
         lss = model.train_on_batch(
             [
                 bottleneck, 
-                x,
+                sub_train_noise[idd],
                 sdotB
             ], 
             x
