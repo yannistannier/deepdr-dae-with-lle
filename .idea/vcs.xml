@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/tsne-cuda" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tsne-cuda/third_party/cxxopts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tsne-cuda/third_party/faiss" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tsne-cuda/third_party/glog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tsne-cuda/third_party/gtest" vcs="Git" />
+  </component>
+</project>
