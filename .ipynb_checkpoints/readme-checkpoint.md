@@ -37,7 +37,7 @@ Visualisation :
 - [Resultat.ipynb](Resultat.ipynb) : Plot T-SNE des differentes méthodes
 
 
-Repertoires :
+Repertoire :
 - models => contient les models entrainées de deepDr
 - result => contient tout les bottlenecks des differentes configuration effectuées tout au long de ce projet pour chaque dataset : Mnist / fashion mnist / pendigit / upsps
 
