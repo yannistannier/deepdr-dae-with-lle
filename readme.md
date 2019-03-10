@@ -20,3 +20,8 @@ L'objectif est un algorithme iteratif simple, optimisant une fonction objective 
 
 ### Structure depot :
 
+
+Main code :  
+- [deepReduc.ipynb](deepReduc.ipynb) : Notebook et visuel de l'implementation de DeepDr
+- [deepReduc.py](deepReduc.py) : Script DeepDr
+- [GMM_nmiari.ipynb](GMM_nmiari.ipynb) : Notebook du script des test des mélanges de modèles gaussiens et des indicateurs classiques NMI/ARI
