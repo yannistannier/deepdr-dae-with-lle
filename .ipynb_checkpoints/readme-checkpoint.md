@@ -45,6 +45,7 @@ Repertoires :
 
 Experimentation : Contient differentes implementations d'ameliorations possible.
 - [deepR_denoising.py](experimentation/deepR_denoising.py) : Denoising DeepDr
-- [deepR-vae-bvae.py](experimentation/deepR-vae-bvae.py) : Variationnal DeepDr & Disentangled DeepDr (beta-vae)
+- [VAE-DeepDr.ipynb](experimentation/VAE.ipynb) : Variational DeepDr & plot T-SNE (comparatif)
+- [deepR-vae-bvae.py](experimentation/deepR-vae-bvae.py) : Disentangled DeepDr (beta-vae)
 - [deepR_sparcity.py](experimentation/deepR_sparcity.py) : DeepDr with sparcity constraint
 - [ConvAE.ipynb](experimentation/ConvAE.ipynb) : Convolutional DeepDr
