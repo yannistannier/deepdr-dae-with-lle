@@ -6,7 +6,7 @@ reduction de dimension telles que LLE (Locally Linear Embedding), ISOMAP, et EIG
 
 La méthode proposée, peut etre vue comme une procedure recherchant simultanement une nouvelle representation des donnees contenant le maximum d’informations (en utilisant un DAE ), et un graphe de similarite caracterisant au mieux la proximite entre le points (en utilisant LLE). cette methode consiste dans l’optimisation du probleme suivant : 
 
-![alt text](https://raw.githubusercontent.com/yannistannier/deepdr-dae-with-lle/blob/master/images/1.png)
+![alt text](https://raw.githubusercontent.com/yannistannier/deepdr-dae-with-lle/master/images/1.png)
 
 
 θ1, θ2 sont respectivement les parametres des blocs encodeur et decodeur de l’AE. S est la matrice des poids caracterisant la proximite entre les poits calculer avec LLE. Cette fonction objectif se decompose en deux
@@ -15,7 +15,7 @@ termes, le premier correspond a la fonction objectif d’un Autoencodeurs et le 
 
 L'objectif est un algorithme iteratif simple, optimisant une fonction objective appropriee. Cet algorithme s’appuie sur deux etapes de mise a jour selon le schema d'ecrit dans le pseudo-code ci-apre :
 
-image
+![alt text](https://raw.githubusercontent.com/yannistannier/deepdr-dae-with-lle/master/images/2.png)
 
 
 ### Structure depot :
