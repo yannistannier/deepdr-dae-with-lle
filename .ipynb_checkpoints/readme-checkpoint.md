@@ -30,7 +30,7 @@ L'objectif est un algorithme iteratif simple, optimisant une fonction objective 
 Main code :  
 - [deepReduc.ipynb](deepReduc.ipynb) : Notebook et visuel de l'implementation de DeepDr
 - [deepReduc.py](deepReduc.py) : Script DeepDr
-- [GMM_nmiari.ipynb](GMM_nmiari.ipynb) : Notebook du script des test des mélanges de modèles gaussiens et des indicateurs classiques NMI/ARI
+- [GMM_nmiari.ipynb](GMM_nmiari.ipynb) : Notebook du script des test des mélanges de modèles gaussiens et des indicateurs classiques NMI/ARI (plus de resultat dans le dossier "GMM_nmi_ari")
 
 
 Visualisation :
@@ -43,9 +43,7 @@ Repertoires :
 - result => contient tout les bottlenecks des differentes configuration effectué tout au long de ce projet pour chaque dataset : Mnist / fashion mnist / pendigit / upsps
 
 
-Experimentation : 
-
-Contient differentes implementations d'ameliorations possible :
+Experimentation : Contient differentes implementations d'ameliorations possible.
 - [deepR_denoising.py](experimentation/deepR_denoising.py) : Denoising DeepDr
 - [deepR-vae-bvae.py](experimentation/deepR-vae-bvae.py) : Variationnal DeepDr & Disentangled DeepDr (beta-vae)
 - [deepR_sparcity.py](experimentation/deepR_sparcity.py) : DeepDr with sparcity constraint
