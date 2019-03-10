@@ -39,8 +39,8 @@ Visualisation :
 
 
 Repertoires :
-- models => contient les models entrainée de deepDr
-- result => contient tout les bottlenecks des differentes configuration effectué tout au long de ce projet pour chaque dataset : Mnist / fashion mnist / pendigit / upsps
+- models => contient les models entrainées de deepDr
+- result => contient tout les bottlenecks des differentes configuration effectuées tout au long de ce projet pour chaque dataset : Mnist / fashion mnist / pendigit / upsps
 
 
 Experimentation : Contient differentes implementations d'ameliorations possible.
