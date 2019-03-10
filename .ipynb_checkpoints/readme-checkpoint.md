@@ -10,7 +10,6 @@ La méthode proposée, peut etre vue comme une procedure recherchant simultaneme
 
 
 θ1, θ2 sont respectivement les parametres des blocs encodeur et decodeur de l’AE. S est la matrice des poids caracterisant la proximite entre les poits calculer avec LLE. Cette fonction objectif se decompose en deux
-1
 termes, le premier correspond a la fonction objectif d’un Autoencodeurs et le second teme correspond a la fonction objectif de la methode LLE.
 
 L'objectif est un algorithme iteratif simple, optimisant une fonction objective appropriee. Cet algorithme s’appuie sur deux etapes de mise a jour selon le schema d'ecrit dans le pseudo-code ci-apre :
@@ -45,7 +44,7 @@ Repertoires :
 
 Experimentation : Contient differentes implementations d'ameliorations possible.
 - [deepR_denoising.py](experimentation/deepR_denoising.py) : Denoising DeepDr
-- [VAE-DeepDr.ipynb](experimentation/VAE.ipynb) : Variational DeepDr & plot T-SNE (comparatif)
+- [VAE.ipynb](experimentation/VAE.ipynb) : Variational DeepDr & plot T-SNE (comparatif)
 - [deepR-vae-bvae.py](experimentation/deepR-vae-bvae.py) : Disentangled DeepDr (beta-vae)
 - [deepR_sparcity.py](experimentation/deepR_sparcity.py) : DeepDr with sparcity constraint
 - [ConvAE.ipynb](experimentation/ConvAE.ipynb) : Convolutional DeepDr
